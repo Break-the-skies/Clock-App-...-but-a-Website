@@ -1,0 +1,13 @@
+<!DOCTYPE html!>
+<head>
+    <title>Clocks - Timer Page</title>
+    <meta http-equiv="refresh" content="1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Welcome to the Timer!</h1>
+    <p>Honestly the name should be self-explantory.</p>
+    <br>
+    <!---Use an external JavaScript file- refer to: 
+    https://www.geeksforgeeks.org/javascript/where-to-put-javascript-in-an-html-document/-->
+</body>
