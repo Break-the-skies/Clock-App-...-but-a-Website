@@ -25,6 +25,6 @@
     </ul>
     <p> This will probably be handy for those who either don't want to use the Clock App or have had their phone taken away (you know who
         you are!).</p>
-    <button onclick="window.location.href='timer.html'">Set a Timer</button>
+    <button onclick="window.location.href='timer.html'">Timer</button>
 </body>
 </html>

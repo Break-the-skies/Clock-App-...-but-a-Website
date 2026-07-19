@@ -1,6 +1,7 @@
-<!DOCTYPE html!>
+<!DOCTYPE html>
 <head>
     <title>Clocks - Timer Page</title>
+    <script src="Timer JS.js"></script>
     <meta http-equiv="refresh" content="1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -8,6 +9,22 @@
     <h1>Welcome to the Timer!</h1>
     <p>Honestly the name should be self-explantory.</p>
     <br>
-    <!---Use an external JavaScript file- refer to: 
-    https://www.geeksforgeeks.org/javascript/where-to-put-javascript-in-an-html-document/-->
+    <div id="Timer Duration"></div>
+       <form id="timer_length" action="Timer JS" method="post">
+            <label for="Hours">Hours?:></label>
+            <input type="number" id="Hours" name="hours" value="0" min="0" step="1">
+            <label for="Minutes">Minutes?:></label>
+            <input type="number" id="Minutes" name="minutes" min="0" max="59" value="0" step="1">
+            <label for="Seconds">Seconds?:></label>
+            <input type="number" id="Seconds" name="seconds" min="0" max="59" value="0" step="1" required>
+            <input type="Submit" value="Start Timer" id="Timer Start" onclick="startTimer()">
+        </form>
+    </div>
+    <br>
+    <div id="Timer">
+        <h1 id="Timer Text" style="color:rgba(60,60,60,0)"></h1>
+        <button id="Pause" onclick="pauseTimer()">Pause</button>
+        <button id="Stop" onclick="stopTimer()">Stop</button>
+        <button id="Resume" onclick="resumeTimer()" style="color:rgba(60,60,60,0)">Resume</button>
+    </div>
 </body>
