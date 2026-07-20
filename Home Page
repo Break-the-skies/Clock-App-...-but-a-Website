@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <title>Clocks - Home Page</title>
+    <link rel="stylesheet" href="Home Page CSS">
 </head>
 <body>
-    <!-- This is where the visible stuff goes -->
      <h1> Welcome to Clocks! </h1>
      <p>So ... what exactly is this ? 
         <br> 

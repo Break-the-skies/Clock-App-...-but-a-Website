@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <head>
     <title>Clocks - Timer Page</title>
+    <link rel="stylesheet" href="Timer CSS">
     <script src="Timer JS.js"></script>
     <meta http-equiv="refresh" content="1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <h1>Welcome to the Timer!</h1>
+    <h1 id="title">Welcome to the Timer!</h1>
     <p>Honestly the name should be self-explantory.</p>
     <br>
     <div id="Timer Duration"></div>
@@ -23,8 +24,8 @@
     <br>
     <div id="Timer">
         <h1 id="Timer Text" style="color:rgba(60,60,60,0)"></h1>
-        <button id="Pause" onclick="pauseTimer()">Pause</button>
-        <button id="Stop" onclick="stopTimer()">Stop</button>
+        <button id="Pause" onclick="pauseTimer()" style="color:rgba(60,60,60,0)">Pause</button>
+        <button id="Stop" onclick="stopTimer()" style="color:rgba(60,60,60,0)">Stop</button>
         <button id="Resume" onclick="resumeTimer()" style="color:rgba(60,60,60,0)">Resume</button>
     </div>
 </body>
